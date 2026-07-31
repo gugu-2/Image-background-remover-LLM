@@ -1,0 +1,48 @@
+# Virtual Environments
+venv/
+.venv/
+env/
+.env
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+
+# Build Output
+build/
+build_temp/
+dist/
+dist-electron/
+desktop-app/node_modules/
+desktop-app/dist/
+desktop-app/dist-electron/
+desktop-app/resources/
+
+# USER PRIVATE IMAGES (DO NOT COMMIT)
+input_images/
+output_images/
+output_images_isnet/
+custom_single_output/
+sky_output/
+sky_custom_output/
+sota_birefnet_output/
+source images/
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.gif
+
+# Exclude assets in desktop-app from wildcard image ignore
+!desktop-app/src/assets/*
+!desktop-app/public/*
+
+# IDE & OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
